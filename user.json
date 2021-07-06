@@ -1,0 +1,20 @@
+{"index":{"_index":"user_index","_type":"_doc","_id":"1"}}
+{"name": "鈴木 太郎","married":false,"hobby":["読書","スポーツ"],"gender":"male","email": "suzuki.taro@example.com","birth": 19800101,"address":{"city": "東京都","detail": "江戸川区1-1-1"}}
+{"index":{"_index":"user_index","_type":"_doc","_id":"2"}}
+{"name": "山田 花子","married":false,"hobby":["映画鑑賞","スポーツ"],"gender":"female","email": "yamada.hanako@example.com","birth": 19860303,"address":{"city": "東京都","detail": "新宿区1-2-3"}}
+{"index":{"_index":"user_index","_type":"_doc","_id":"3"}}
+{"name": "中村 修太","married":true,"hobby":["音楽鑑賞"],"gender":"male","email": "nakamura.shuta@example.com","birth": 19790910,"address":{"city": "埼玉県","detail": "さいたま市4-5-6"}}
+{"index":{"_index":"user_index","_type":"_doc","_id":"4"}}
+{"name": "マイケル J raccoon","married":false,"hobby":["読書"],"gender":"male","email": "mike@sample.com","birth": 20001020,"address":{"city": "京都府","detail": "京都市8-8-8"}}
+{"index":{"_index":"user_index","_type":"_doc","_id":"5"}}
+{"name": "浪速 五右衛門","married":false,"hobby":["園芸","料理"],"gender":"male","email": "goemon@sample.com","birth": 19800725,"address":{"city": "北海道","detail": "札幌市5-4-2"}}
+{"index":{"_index":"user_index","_type":"_doc","_id":"6"}}
+{"name": "吉永 由香里","married":true,"hobby":["読書","映画鑑賞"],"gender":"female","email": "yoshinaga.yukari@yoshinaga.com","birth": 19991115,"address":{"city": "滋賀県","detail": "大津市4-7-1"}}
+{"index":{"_index":"user_index","_type":"_doc","_id":"7"}}
+{"name": "アレン パーカー","married":true,"hobby":["料理"],"gender":"male","email": "aren@classmethod.jp","birth": 20030722,"address":{"city": "沖縄県","detail": "那覇市9-7-6"}}
+{"index":{"_index":"user_index","_type":"_doc","_id":"8"}}
+{"name": "我那覇 太郎","married":false,"hobby":["スポーツ"],"gender":"male","email": "ganaha@example.jp","birth": 19790329,"address":{"city": "沖縄県","detail": "那覇市1-2-3"}}
+{"index":{"_index":"user_index","_type":"_doc","_id":"9"}}
+{"name": "米田 洋介","married":true,"hobby":["園芸","音楽鑑賞"],"gender":"male","email": "kome@classmethod.jp","birth": 19650603,"address":{"city": "新潟県","detail": "新潟市3-5-7"}}
+{"index":{"_index":"user_index","_type":"_doc","_id":"10"}}
+{"name": "明 太子","married":false,"hobby":["料理","スポーツ"],"gender":"female","email": "mentaiko@classmethod.jp","birth": 20020123,"address":{"city": "福岡県","detail": "博多市7-6-5"}}

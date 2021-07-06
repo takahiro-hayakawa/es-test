@@ -103,3 +103,8 @@ POST customer/_update/1
   }
 }
 ```
+
+### JSONファイルから登録
+```shell
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/user_index/_bulk" --data-binary @user.json
+```
