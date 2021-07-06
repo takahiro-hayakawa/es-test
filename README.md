@@ -1,6 +1,22 @@
 # es-test
-参考記事
+参考記事  
 https://qiita.com/kiyokiyo_kzsby/items/344fb2e9aead158a5545
+
+実行方法  
+```shell
+docker-compose build
+docker-compose up -d
+```
+
+終了  
+```shell
+docker-compose down
+```
+
+Kibana  
+http://localhost:5601  
+起動に時間がかかるっぽい  
+
 
 ## ヘルスチェック
 ```shell
@@ -53,4 +69,37 @@ RDBの1行のレコードに相当
 ドキュメントがどのようなフィールドから構成されるかの構造(ドキュメントタイプ)を具体的に定義したもの
 ドキュメント内の各フィールドのデータ型をマッピングしたもの
   
+## 実行例
+kibanaのconsole上での実行
 
+### インデックス作成
+```shell
+PUT customer
+```
+
+### ドキュメント操作
+```
+PUT customer/_doc/1
+{
+  "user_name": "Takahiro Hayakawa",
+  "date": "2021-07-07T00:58:00",
+  "message": "Hello"
+}
+```
+
+### ドキュメント取得  
+```
+GET customer/_doc/1
+# メタ情報は除く
+GET customer/_source/1
+```
+
+### ドキュメント一部更新
+```shell
+POST customer/_update/1
+{
+  "doc" : {
+    "message": "Hello World"
+  }
+}
+```
